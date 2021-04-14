@@ -1,0 +1,30 @@
+body
+{
+    background-color: #00FF00;
+}
+/*.box
+{
+    margin-top: 75px;
+    margin-left: 350px; 
+    background-color: yellow;
+    width: 700px;
+    height: 700px;
+}
+.flor
+{
+    padding-top: 100px;
+    padding-left: 100px;
+    filter: invert(19%) sepia(98%) saturate(5788%) hue-rotate(357deg) brightness(100%) contrast(117%);
+    height: 500px;
+    width: 500px;
+}
+*/.flor/*need to disable the other class in the html for this core*/
+{
+    background-color:yellow;
+    margin-top: 75px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    padding: 100px 100px 100px 100px;
+    height: 500px;
+    width: 500px;
+}

@@ -1,0 +1,52 @@
+
+body
+{
+    margin: 100px;
+}
+.caja_zapato
+{
+    margin: 50px 80px 60px 80px;
+
+    padding: 25px;
+
+    border: 5px solid red;
+    
+    display: inline;
+}
+.caja_zapato:hover 
+{
+    background-color: red;
+}
+
+main
+{
+    display: flex;/* para que el pocisionamiento se aplique a los hijos*/
+    flex-direction: row;/* en que direccion se ordenan*/
+    justify-content: space-between;/*como estan espaciados los hijos (derecha izquierda)*/
+    align-items: center;/*como estan espaciados los hijos (arriba abajo)*/
+}
+@media (max-width: 1920px)
+{
+    .caja_zapato
+    {
+        margin: 50px 80px 60px 80px;
+    
+        padding: 25px;
+    
+        border: 5px solid blue;
+        
+        display: inline;
+    }
+    .caja_zapato:hover 
+    {
+        background-color: blue;
+    }
+    
+    main
+    {
+        display: flex;/* para que el pocisionamiento se aplique a los hijos*/
+        flex-direction: column;/* en que direccion se ordenan*/
+        justify-content: space-between;/*como estan espaciados los hijos (derecha izquierda)*/
+        align-items: center;/*como estan espaciados los hijos (arriba abajo)*/
+    } 
+}

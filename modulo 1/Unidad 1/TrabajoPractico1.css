@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.c0000.box{
+    background-color: #FF0000;
+}
+.c0033{
+    background-color: #FF0033;
+}
+.c0066{
+    background-color: #FF0066;
+
+}
+.c0099{
+    background-color: #FF0099;
+}
+.c00cc{
+    background-color: #FF00cc;
+}
+.c00ff{
+    background-color: #FF00ff;
+}
+footer{
+    background-color: cadetblue;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+}

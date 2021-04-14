@@ -1,0 +1,24 @@
+body
+{
+    margin: 100px;
+}
+.caja_zapato
+{
+    margin: 50px 80px 60px 80px;
+
+    padding: 25px;
+
+    border: 5px solid red;
+    
+    display: inline;
+}
+/*
+:first-child selecciona el primer elemento hijo de un elemento
+:link o :visited aplica diferentes estilos a los enlaces de una misma pagina
+:hover :active o :focus en funcion de la accion del usuario
+:nth-of-type selecciona uno o mas elementos de un  tipo dado en funcion de su pocicon
+*/
+.caja_zapato:hover 
+{
+    background-color: red;
+}

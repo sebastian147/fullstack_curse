@@ -1,0 +1,78 @@
+body
+{
+    background-color: lightgray;
+}
+.box-white
+{
+    margin:0px 350px 0px 350px;
+    padding:0px 10px 0px 10px;
+    background-color: white;
+    /*height: probar;*/
+}
+header
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.tab
+{
+    padding: 5px 5px 5px 5px;
+    display: inline;
+}
+#bug
+{
+    width:  75px;
+    height: 75px;
+    padding: 0px 0px 0px 0px;
+}
+footer
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    color:  lightgray;
+    padding:50px 0px 50px 0px;
+
+}
+.pie
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.row
+{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+img
+{
+    width: 350px;
+}
+.right-img
+{
+    width: 200px;
+}
+
+.column1
+{
+    padding:0px 20px 0px 0px;
+    margin-right: 0px;
+}
+.column2
+{
+    padding:0px 20px 0px 20px;
+}
+.column3
+{
+    padding:0px 0px 0px 20px;
+    margin-top: -30px;
+}
