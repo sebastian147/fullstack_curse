@@ -145,3 +145,10 @@ function importeFinal()
 }
 let table = document.querySelector("table");
 generateTable(table,productos,agregarItem);
+
+function carrito(event)
+{
+    PrecioFinal += parseInt(event.target.parentNode.childNodes[1].childNodes[0].data);//.data accede al valor del node "precio"
+
+   console.log(PrecioFinal);
+}

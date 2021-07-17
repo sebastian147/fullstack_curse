@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulario datos personales</h3>
+    <div class = "formulario">
+        <form action= "/form" method="POST"> <!-- encierra todos los contenidos del formulario:
+        botones, cuadros de texto, listas desplegables, etc) -->
+        <label>Escribe tu nombre:</label>
+        <input type="text" value="Pepito" name="Nombre" >
+        <br>
+        <label>Escribe tu apellido:</label>
+        <input type="text" value="Garcia" name="Apellido" >
+        <br>
+        <label>Escribe tu edad:</label>
+        <input type="number" value="20" name="edad" >
+        <br>
+        <label>Escribe tu numero de telefono:</label>
+        <input type="tel" value="1111111111" name="Telefono" >
+        <br>
+        <label>Escribe tu pais de origen:</label>
+        <input type="text" value="Argentina" name="PaisDeNacimiento" >
+        <br>
+        <label>Escribe tu pais de recidencia:</label>
+        <input type="text" value="Argentina" name="PaisDeRecidencia" >
+        <br>
+        <input type="submit" value="Enviar"> <!-- botón para enviar el formulario-->
+        </form>
+    </div>
+</body>
+</html>
